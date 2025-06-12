@@ -1,7 +1,7 @@
 # 🛣️ Road Detection sử dụng DeepLabv3 trên ảnh vệ tinh
 
 ### 📌 Tổng quan
-#### Dự án này triển khai mô hình phân đoạn semantic sử dụng DeepLabv3 với backbone ResNet101 để nhận diện đường giao thông trong ảnh vệ tinh. Mô hình được huấn luyện trên tập dữ liệu TGRS Road, gồm các cặp ảnh RGB và mặt nạ nhãn tương ứng. Mục tiêu là xác định chính xác khu vực là "đường" trên ảnh vệ tinh độ phân giải cao.
+#### Dự án này triển khai mô hình phân đoạn semantic sử dụng DeepLabv3 với backbone ResNet101 để nhận diện đường giao thông trong ảnh vệ tinh. Mô hình được huấn luyện trên tập dữ liệu [TGRS Road](https://www.kaggle.com/datasets/ipythonx/tgrs-road), gồm các cặp ảnh RGB và mặt nạ nhãn tương ứng. Mục tiêu là xác định chính xác khu vực là "đường" trên ảnh vệ tinh độ phân giải cao.
 
 ### 🏗 Cấu trúc Dự án
 ```bash
